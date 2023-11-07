@@ -14,7 +14,7 @@ This Ubuntu Server Setup Script is designed to simplify the initial setup and se
 - **Fail2ban Installation:** Optionally install and enable Fail2ban to protect against unauthorized access attempts.
 
 ## Attribution:
-The foundation of this script is based on Spinup WP's guide, available at [https://spinupwp.com/install-wordpress-ubuntu/](https://spinupwp.com/install-wordpress-ubuntu/), with modifications made to suit specific requirements and additional user experience enhancements.
+The foundation of this script is based on [Spinup WP's guide](https://spinupwp.com/install-wordpress-ubuntu/), with modifications made to suit specific requirements and additional user experience enhancements.
 
 ## Compatibility:
 - This script has been tested on Ubuntu 22.04 LTS, but it may work on other Debian/Ubuntu-based distributions as well.
