@@ -13,6 +13,13 @@ This Ubuntu Server Setup Script is designed to simplify the initial setup and se
 - **Firewall Setup (UFW):** Optionally install and configure the Uncomplicated Firewall (UFW) with predefined rules.
 - **Fail2ban Installation:** Optionally install and enable Fail2ban to protect against unauthorized access attempts.
 
+**Attribution:**
+The foundation of this script is based on [Spinup WP's guide](https://spinupwp.com/install-wordpress-ubuntu/), with modifications made to suit specific requirements and additional user experience enhancements.
+
+**Compatibility:**
+- This script has been tested on Ubuntu 22.04 LTS, but it may work on other Debian/Ubuntu-based distributions as well.
+- While the script is designed for Ubuntu, it might also be compatible with other Debian/Ubuntu-based systems. If you have tested it on other systems, please provide feedback or updates to the README.
+
 **Usage:**
 To set up your Ubuntu server using this script, follow these steps:
 
