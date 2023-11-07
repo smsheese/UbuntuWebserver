@@ -14,7 +14,28 @@ This Ubuntu Server Setup Script is designed to simplify the initial setup and se
 - **Fail2ban Installation:** Optionally install and enable Fail2ban to protect against unauthorized access attempts.
 
 **Usage:**
-This script can be executed by a superuser (root or with sudo privileges) and guides you through each step, prompting for user input where necessary. It ensures that your Ubuntu server is set up securely and efficiently, saving you time and effort.
+To set up your Ubuntu server using this script, follow these steps:
+
+1. **Download the Script:**
+   - Click on the "Code" button at the top of this repository.
+   - Select "Download ZIP" to download the script files to your local machine.
+   - Alternatively, you can clone the repository using Git by running the following command:
+     ```bash
+     git clone https://github.com/smsheese/UbuntuWebserver.git
+     ```
+
+2. **Run the Script:**
+   - Ensure that you have superuser privileges (either as the root user or using sudo).
+   - Open your terminal and navigate to the directory where you downloaded or cloned the script.
+   - Make the script executable by running the following command:
+     ```bash
+     chmod +x setup_server.sh
+     ```
+   - Run the script by executing:
+     ```bash
+     ./setup_server.sh
+     ```
+   - The script will guide you through the setup process and prompt you for user input at each step.
 
 **Note:**
 Please exercise caution and review the prompts carefully, especially when modifying SSH and firewall settings. It's recommended to review the provided details before running the script to ensure it aligns with your server's requirements.
